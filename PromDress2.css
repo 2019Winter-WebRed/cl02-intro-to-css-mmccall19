@@ -1,0 +1,37 @@
+/*
+*Mackenzie
+*Due Date
+*Project Name and Description
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+        width: 90%;
+        margin: auto; 
+        background-color: peachpuff;
+        font-family: sans-serif;
+}
+
+h1 { 
+    background-color:lightpink; /*color for background */
+    color:floralwhite; /* color of text */
+}
+
+p { /* type selector for ALL paragraphs */
+    color: black;  
+}
+
+#redText { /* use an id to change text to red */
+    color:red;
+}
+
+.greenText { /* use a class to change text to green in different kinds of elements */
+    color: green;
+}
